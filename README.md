@@ -1,5 +1,5 @@
 # Esp32-Ticker
-### Codigo
+### Codigo no probado
 ```c++
 #include <Ticker.h>
 
