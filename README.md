@@ -19,7 +19,7 @@ void setup()
 {
   pinMode(led, OUTPUT);
 
-  objeto.attach(segundos, parpadear);
+  objeto.attach(segundos, parpadear); //Cada 1 segundo va realizar la funcion
 }
 
 void loop() 
