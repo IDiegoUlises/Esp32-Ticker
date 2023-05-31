@@ -12,8 +12,8 @@ int segundos = 1;
 
 void parpadear()
 {
-  digitalWrite(led, estado);
   estado = !estado;
+  digitalWrite(led, estado);
 }
 void setup() 
 {
