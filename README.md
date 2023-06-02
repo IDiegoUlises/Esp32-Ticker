@@ -3,8 +3,8 @@
 ```c++
 #include <Ticker.h>
 
-//Se crea el objeto
-Ticker objeto;
+//Se crea un objeto, para agregar mas debe crear otro objeto de tipo Ticker
+Ticker ticker;
 
 //Se crea una variable booleana para cambiar el estado del led
 boolean estado = false;
@@ -25,7 +25,7 @@ void setup()
   pinMode(led, OUTPUT);
 
   //Se invoca a la funcion que se realizara cada cierto tiempo
-  objeto.attach(segundos, parpadear);
+  ticker.attach(segundos, parpadear);
 }
 
 void loop() 
