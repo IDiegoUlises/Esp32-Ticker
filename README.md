@@ -35,4 +35,4 @@ void loop()
 ```
 ### Funcionamiento
 ![](https://github.com/IDiegoUlises/Esp32-Ticker/blob/main/Imagen/esp32-ticker.gif)
-* Cada un segundo realiza las instrucciones de la funcion
+* Cada un segundo realiza las instrucciones que estan dentro de la funcion
